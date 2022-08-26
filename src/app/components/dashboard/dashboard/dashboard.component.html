@@ -1,0 +1,18 @@
+<p-megaMenu [model]="items"></p-megaMenu>
+<div class="row">
+  <div class="col-md-6">
+    <p-chart type="bar" [data]="data1" [options]="chartOptions"></p-chart>
+  </div>
+  <div class="col-md-6">
+    <p-chart type="line" [data]="basicData" [options]="basicOptions"></p-chart>
+  </div>
+  <div class="col-md-6">
+    <p-chart type="doughnut" [data]="data" [options]="chartOptions" [style]="{'width': '40%'}"></p-chart>
+  </div>
+  <div class="col-md-6">
+    <p-chart type="polarArea" [data]="data" [options]="chartOptions" [style]="{'width': '40%'}"></p-chart>
+  </div>
+</div>
+
+
+
